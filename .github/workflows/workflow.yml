@@ -30,9 +30,9 @@ jobs:
       - name: Upload code coverage
       - uses: codecov/codecov-action@v2
         with:
-           token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-           files: ./coverage1.xml
-           flags: unittests
-           fail_ci_if_error: true # optional (default = false)
-           verbose: true # optional (default = false)
-           version: "v0.1.13"
+              token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
+              files: ./coverage1.xml
+              flags: unittests
+              fail_ci_if_error: true # optional (default = false)
+              verbose: true # optional (default = false)
+              version: "v0.1.13"
